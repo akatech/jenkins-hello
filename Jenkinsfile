@@ -5,7 +5,7 @@ node {
    stage('Build'){
        bat 'javac Main.java'
    }
-   stage('Run'){
+   stage('Run 2'){
        bat 'java Main'
    }
 }
