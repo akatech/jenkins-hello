@@ -3,9 +3,9 @@ node {
      git branch: 'main', url: 'https://github.com/akatech/jenkins-hello.git'
    }
    stage('Build'){
-       sh 'javac Main.java'
+       bat 'javac Main.java'
    }
    stage('Run'){
-       sh 'java Main'
+       bat 'java Main'
    }
 }
